@@ -5,11 +5,19 @@ hotel database written in C# in .NET MVC framework for webapps
 Diagram in the assets folder connects the thought process and scaffolding
 
 hotel holds id, name, stree, city, state, country, and phone data.
-connects
+
+#### connects
+
 hotelroom. HotelRoom holds hotelID, roomnum, roomID, rate
-connects
+
+#### connects
+
 Room, which holds ID, name, pet friendly status, layout (studi, oneBed, twoBed)
-connects 
+
+#### connects 
+
 roomAmenitues; AmenID, RoomID
-connects
+
+#### connects
+
 Amenities; AmenID, name
