@@ -36,7 +36,7 @@ namespace AsynchHotel
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
             app.UseStaticFiles();
             app.UseRouting();
 
@@ -45,7 +45,7 @@ namespace AsynchHotel
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Default}/{action=Index}/{id?}");
-               
+
             });
         }
     }
