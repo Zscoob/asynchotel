@@ -11,9 +11,9 @@ namespace AsynchHotel.Data
     public class Class AsynchHotelDbContext : DbContext
     {
         public AsynchHotelDbContext(DbContextOptions) : base(options)
-        {
+    {
 
-        }
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -51,7 +51,7 @@ namespace AsynchHotel.Data
             }
 
     )};
- 
 
-    }
+
+}
 }
