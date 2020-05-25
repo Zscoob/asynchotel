@@ -50,8 +50,77 @@ namespace AsynchHotel.Data
                 phone = 6666666666
             }
 
-    )};
+
+    );
+        modelBuilder.Entity<Room>().HasData(
+            new
+            {
+                ID = 1,
+                name = "The quinby",
+                layout = "hidden mistress"
+            },
+            new
+            {
+                ID = 2,
+                name = "big city",
+                layout = "studio"
+            },
+            new
+            {
+                ID = 3,
+                name = "forest dweller",
+                layout = "rustic mahogany"
+            },
+            new
+            {
+                ID = 4,
+                name = "the playboy",
+                layout = "king bed, hot tub"
+            },
+            new
+            {
+                ID = 5,
+                name = "The family",
+                layout = "twoBed, xbox"
+            },
+            new
+            {
+                ID = 6,
+                name = "dorm",
+                layout = "twoBed, rAnDoM rOoMmAtE"
+            })
+            ;
+
+        modelBuilder.Entity<Amenities>().HasData(
+            new
+            {
+                ID = 1,
+                name = "scotchguard soaked everything"
+            },
+            new
+            {
+                ID = 2,
+                name = "white noise machine"
+            },
+            new
+            {
+                ID = 3,
+                name = "videogame console of choice"
+            },
+            new
+            {
+                ID = 4,
+                name = "blunt protective object"
+            },
+            new
+            {
+                ID = 5,
+                name = "wake up call"
+            }
+            );
 
 
+    }
+
 }
-}
+
